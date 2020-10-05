@@ -1,0 +1,95 @@
+        * {
+            margin: 0px;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            background: transparent;
+            vertical-align: baseline;
+        }
+        
+        body {
+            background-image: url(https://i.pinimg.com/originals/49/73/ea/4973ead72580df908af111b6770fe6ac.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin-left: 220px;
+            margin-right: 220px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+        }
+        
+        #equipo {
+            margin-top: 20px;
+        }
+        
+        h1 {
+            font-size: 80px;
+            color: teal;
+            text-shadow: white;
+        }
+        
+        h2 {
+            font-size: 30px;
+            color: teal;
+        }
+        
+        h3 {
+            color: teal;
+        }
+        
+        .logo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+            position: relative;
+        }
+        
+        .unl {
+            text-align: center;
+            border-top: 20px;
+            display: block;
+            padding: 10px;
+            background-color: teal;
+        }
+        
+        li {
+            font-size: 18px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        
+        .lis {
+            display: inline;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        
+        p {
+            text-align: center;
+            margin: auto;
+        }
+        
+        footer {
+            margin: auto;
+            border: 5px outset teal;
+            border-radius: 80px;
+            margin-top: 50px;
+            margin-block-end: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
