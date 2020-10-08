@@ -1,70 +1,149 @@
-     * {
-         margin: 0px;
-         padding: 0;
-         list-style: none;
-         text-decoration: none;
-         border: none;
-         outline: none;
-         background: transparent;
-         vertical-align: baseline;
-     }
-     /* paleta de colores */
-     
-      :root {
-         --paletaOscura: #1e74a3;
-         --paletaClara: #80c6c4;
-     }
-     
-     nav {
-         background-color: black;
-         display: flex;
-         justify-content: center;
-         margin: 25px;
-         color: white;
-         padding: 20px;
-     }
-     
-     nav li {
-         display: inline-block;
-         text-align: center;
-         margin: auto;
-         padding: 10px;
-     }
-     
-     nav li:hover {
-         border-radius: 15px;
-         background-color: #80c6c4;
-         color: red;
-     }
-     /*footer*/
-     
-     #contenedorFooter {
-         background-color: black;
-         display: flex;
-         border-radius: 16px;
-         justify-content: space-around;
-         margin: 25px;
-         color: white;
-         line-height: 1.5;
-         padding: 20px;
-         align-items: center;
-         height: 90px;
-         font-family: Arial, Helvetica, sans-serif;
-c     }
-     
-     .information {
-         width: 200px;
-     }
-     
-     .info {
-         text-decoration: underline;
-     }
-     
-     .reservas {
-         width: 200px;
-     }
-     
-     .entrega24h {
-         width: 200px;
-         box-sizing: content-box;
-     }
+    * {
+        margin: 0px;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        background: transparent;
+        vertical-align: baseline;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: whitesmoke;
+    }
+    /* paleta de colores */
+    
+     :root {
+        --paletaOscura: #1e74a3;
+        --paletaClara: #80c6c4;
+    }
+    
+    .logo {
+        display: flex;
+        font-size: 20px;
+        padding-right: 65%;
+    }
+    
+    nav {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        color: white;
+        padding: 10px;
+        asd
+        padding: 10px;
+    }
+    
+    nav li {
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    nav li:hover {
+        border-radius: 15px;
+        background-color: #80c6c4;
+        color: #1e74a3;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 200px;
+    }
+    /*section*/
+    
+    .sectionCont {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        border-radius: 16px;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px 0px #1e74a3;
+        border: 1px solid #1e74a3;
+    }
+    
+    .titulo {
+        padding: 10px;
+    }
+    
+    .texto {
+        padding: 10px;
+    }
+    
+    .catalogContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .exclusivas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /*footer*/
+    
+    #contenedorFooter {
+        background-color: black;
+        display: flex;
+        flex: 0 0 auto;
+        justify-content: space-around;
+        color: white;
+        line-height: 1.5;
+        padding: 5px;
+        align-items: center;
+        height: 90px;
+        font-size: 14px;
+    }
+    
+    .informacion {
+        width: 200px;
+    }
+    
+    .info {
+        text-decoration: underline;
+    }
+    
+    .envios:hover {
+        color: #1e74a3;
+    }
+    
+    .metodos:hover {
+        color: #1e74a3;
+    }
+    
+    .reservas:hover {
+        color: #1e74a3;
+    }
+    
+    .puntos:hover {
+        color: #1e74a3;
+    }
+    
+    .entrega24h:hover {
+        color: #1e74a3;
+    }
+    
+    .reservas {
+        width: 200px;
+    }
+    
+    .entrega24h {
+        width: 200px;
+        box-sizing: content-box;
+    }
