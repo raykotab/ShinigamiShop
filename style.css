@@ -11,15 +11,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: whitesmoke;
-}
-
-
-/* paleta de colores */
-
- :root {
-    --paletaOscura: #1e74a3;
-    --paletaClara: #80c6c4;
+    background-color:crimson;
 }
 
 .logo {
@@ -31,9 +23,9 @@ body {
 
 nav {
     justify-self: right;
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: white;
     display: flex;
-    color: white;
+    color: black;
     padding: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
@@ -53,9 +45,48 @@ nav li:hover {
     color: #1e74a3;
 }
 
+a:visited{
+    color: black;
+    font-size: 120%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a:link{
+    color: black;
+    font-size: 150%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
 .banner {
-    width: 100%;
+    padding-left: 80px;
+    padding-top: 5px;
+    width: 90%;
     height: 250px;
+    border: black;
+    transition:all 0.2s ease;
+}
+.banner:hover{
+    transform:scale(0.9)
+}
+
+.majorFlex{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.postFlex{  
+    flex: auto;
+    padding:20px;
+    background-color: cornsilk;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:space-between;
+    
 }
 
 .descuentos {
@@ -73,7 +104,7 @@ nav li:hover {
 
 #numerosMentira {
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #numerosMentira:hover {
@@ -124,12 +155,6 @@ nav li:hover {
     margin-right: 180px;
     font-size: 20px;
 }
-
-.catalogContainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -155,8 +180,12 @@ nav li:hover {
 }
 
 .catalogo {
-    text-align: centrz;
     display: flex;
+    background-color: rgb(168, 17, 47);
+    padding-left: 40%;
+    color: cornsilk;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
 }
 
 .tituloMario {
@@ -212,7 +241,7 @@ nav li:hover {
     color: #1e74a3;
 }
 
-.entrega24h:hover {
+.entregaCuatro:hover {
     color: #1e74a3;
 }
 
@@ -220,6 +249,6 @@ nav li:hover {
     width: 200px;
 }
 
-.entrega24h {
+.entregaCuatro {
     width: 200px;
 }
