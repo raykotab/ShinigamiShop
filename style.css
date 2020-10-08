@@ -69,6 +69,25 @@ a:link{
     transform:scale(0.9)
 }
 
+.ofertaFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    padding:10px;
+    background-color: cornsilk;
+    transition:all 0.2s ease;
+}
+.imagenesPortada{
+    padding-top: 10px;
+    padding:center;
+    padding-right: 25px;
+    padding:space-between;
+    transition:all 0.2s ease;
+}
+.imagenesPortada:hover{
+    transform:scale(0.9)
+}
+
 .majorFlex{
     display: flex;
     flex-wrap: wrap;
@@ -77,8 +96,13 @@ a:link{
 }
 .postFlex{  
     flex: auto;
-    padding:20px;
+    padding:10px;
     background-color: cornsilk;
+    transition:all 0.2s ease;
+}
+
+.postFlex:hover{
+    transform:scale(0.9)
 }
 
 .center {
@@ -88,11 +112,11 @@ a:link{
     padding:space-between;
     
 }
-
-.descuentos {
+.portada{
     height: 500px;
-    width: 1300px;
+    width: 1475px;
 }
+
 
 
 /*números catalogo falsos*/
@@ -126,33 +150,29 @@ a:link{
 }
 
 
-/*section*/
-
-.sectionCont {
-    font-family: Arial, Helvetica, sans-serif;
+.descripcion {
     padding: 30px;
-    margin: 50px;
+    margin: 10px;
     display: flex;
-    justify-content: center;
-    border-radius: 16px;
     flex-direction: column;
-    box-shadow: 5px 5px 5px 0px #1e74a3;
-    border: 1px solid #1e74a3;
-    background-color: #80c6c49f;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    background-color: white;
 }
 
 .titulo {
+    font-family: 'Shadows Into Light', cursive;
     padding: 10px;
     text-align: center;
     font-size: 50px;
-    color: white;
+    color:black ;
 }
 
 .texto {
     padding: 10px;
     text-align: center;
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 20px;
 }
 .productos {
@@ -175,7 +195,7 @@ a:link{
     text-align: center;
     padding: 10px;
     font-size: 50px;
-    background-color: red;
+    background-color:black;
     color: white;
 }
 
@@ -188,6 +208,7 @@ a:link{
     font-size: 40px;
 }
 
+
 .tituloMario {
     display: flex;
     flex-direction: column;
@@ -197,9 +218,10 @@ a:link{
 
 .marioImg {
     display: flex;
-    justify-content: left;
-    width: 800px;
-    height: 500px;
+    padding-left: 2%;
+    width: 450px;
+    height: 450px;
+    padding-top: 20px;
 }
 
 
