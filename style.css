@@ -1,149 +1,225 @@
-    * {
-        margin: 0px;
-        padding: 0;
-        list-style: none;
-        text-decoration: none;
-        border: none;
-        outline: none;
-        background: transparent;
-        vertical-align: baseline;
-    }
-    
-    body {
-        font-family: 'Montserrat', sans-serif;
-        background-color: whitesmoke;
-    }
-    /* paleta de colores */
-    
-     :root {
-        --paletaOscura: #1e74a3;
-        --paletaClara: #80c6c4;
-    }
-    
-    .logo {
-        display: flex;
-        font-size: 20px;
-        padding-right: 65%;
-    }
-    
-    nav {
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        margin: 0px;
-        color: white;
-        padding: 10px;
-        asd
-        padding: 10px;
-    }
-    
-    nav li {
-        display: inline-block;
-        text-align: center;
-        margin: auto;
-        padding: 10px;
-    }
-    
-    nav li:hover {
-        border-radius: 15px;
-        background-color: #80c6c4;
-        color: #1e74a3;
-    }
-    
-    .banner {
-        width: 100%;
-        height: 200px;
-    }
-    /*section*/
-    
-    .sectionCont {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 30px;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        border-radius: 16px;
-        flex-direction: column;
-        box-shadow: 5px 5px 5px 0px #1e74a3;
-        border: 1px solid #1e74a3;
-    }
-    
-    .titulo {
-        padding: 10px;
-    }
-    
-    .texto {
-        padding: 10px;
-    }
-    
-    .catalogContainer {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-    
-    .productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    .exclusivas {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    /*footer*/
-    
-    #contenedorFooter {
-        background-color: black;
-        display: flex;
-        flex: 0 0 auto;
-        justify-content: space-around;
-        color: white;
-        line-height: 1.5;
-        padding: 5px;
-        align-items: center;
-        height: 90px;
-        font-size: 14px;
-    }
-    
-    .informacion {
-        width: 200px;
-    }
-    
-    .info {
-        text-decoration: underline;
-    }
-    
-    .envios:hover {
-        color: #1e74a3;
-    }
-    
-    .metodos:hover {
-        color: #1e74a3;
-    }
-    
-    .reservas:hover {
-        color: #1e74a3;
-    }
-    
-    .puntos:hover {
-        color: #1e74a3;
-    }
-    
-    .entrega24h:hover {
-        color: #1e74a3;
-    }
-    
-    .reservas {
-        width: 200px;
-    }
-    
-    .entrega24h {
-        width: 200px;
-        box-sizing: content-box;
-    }
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+/* paleta de colores */
+
+ :root {
+    --paletaOscura: #1e74a3;
+    --paletaClara: #80c6c4;
+}
+
+.logo {
+    display: flex;
+    font-size: 35px;
+    padding-right: 60%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+nav {
+    justify-self: right;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+    display: inline-block;
+    justify-content: left;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+nav li:hover {
+    transition: 0.2s linear;
+    background-color: #80c6c4;
+    color: #1e74a3;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+}
+
+.descuentos {
+    height: 500px;
+    width: 1300px;
+}
+
+
+/*números catalogo falsos*/
+
+.numerosMentira1 {
+    display: flex;
+    justify-content: center;
+}
+
+#numerosMentira {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#numerosMentira:hover {
+    color: #1e74a3;
+}
+
+
+/*boton Catalogo*/
+
+.primeraImagen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.botonCatalogo {
+    height: 10px;
+    width: 10px;
+}
+
+
+/*section*/
+
+.sectionCont {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 0px #1e74a3;
+    border: 1px solid #1e74a3;
+    background-color: #80c6c49f;
+}
+
+.titulo {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.texto {
+    padding: 10px;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    font-size: 20px;
+}
+
+.catalogContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.exclusivas {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+}
+
+.catalogo {
+    text-align: centrz;
+    display: flex;
+}
+
+.tituloMario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.marioImg {
+    display: flex;
+    justify-content: left;
+    width: 800px;
+    height: 500px;
+}
+
+
+/*footer*/
+
+#contenedorFooter {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 1.5;
+    padding: 5px;
+    align-items: center;
+    height: 90px;
+    font-size: 14px;
+}
+
+.informacion {
+    width: 200px;
+}
+
+.info {
+    text-decoration: underline;
+}
+
+.envios:hover {
+    color: #1e74a3;
+}
+
+.metodos:hover {
+    color: #1e74a3;
+}
+
+.reservas:hover {
+    color: #1e74a3;
+}
+
+.puntos:hover {
+    color: #1e74a3;
+}
+
+.entrega24h:hover {
+    color: #1e74a3;
+}
+
+.reservas {
+    width: 200px;
+}
+
+.entrega24h {
+    width: 200px;
+}
