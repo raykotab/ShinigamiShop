@@ -231,6 +231,13 @@ a:link{
     height: 500px;
 }
 
+.boton {
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    justify-content: center;
+    border: 4px solid black;
+}
 
 /*footer*/
 
