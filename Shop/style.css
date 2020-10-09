@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+}

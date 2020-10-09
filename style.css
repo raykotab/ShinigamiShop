@@ -77,12 +77,24 @@ a:link{
     background-color: cornsilk;
     transition:all 0.2s ease;
 }
+
+.imagenesPortada1{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
 .imagenesPortada{
     padding-top: 10px;
-    padding:center;
+    padding: center;
     padding-right: 25px;
+    padding-left: 20px;
     padding:space-between;
     transition:all 0.2s ease;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    align-content: center;
+    margin-left: 5px;
 }
 .imagenesPortada:hover{
     transform:scale(0.9)
@@ -99,6 +111,7 @@ a:link{
     padding:10px;
     background-color: cornsilk;
     transition:all 0.2s ease;
+    padding-left: 15px;
 }
 
 .postFlex:hover{
@@ -115,6 +128,7 @@ a:link{
 .portada{
     height: 500px;
     width: 1475px;
+    margin-left: 15px;
 }
 
 
@@ -175,6 +189,7 @@ a:link{
     margin-right: 50px;
     font-size: 20px;
 }
+
 .productos {
     display: flex;
     flex-wrap: wrap;
@@ -212,15 +227,15 @@ a:link{
 .tituloMario {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: flex-end;
+    text-align: left;
+    font-size: 20px;
 }
 
 .marioImg {
     display: flex;
     padding-left: 2%;
-    width: 450px;
-    height: 450px;
+    width: 800px;
+    height: 500px;
     padding-top: 20px;
 }
 
