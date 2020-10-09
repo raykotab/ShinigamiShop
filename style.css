@@ -87,7 +87,7 @@ a:link{
     padding-top: 10px;
     padding: center;
     padding-right: 25px;
-    padding-left: 20px;
+    padding-left: 18px;
     padding:space-between;
     transition:all 0.2s ease;
     display: flex;
@@ -138,6 +138,8 @@ a:link{
 .numerosMentira1 {
     display: flex;
     justify-content: center;
+    padding: 20px;
+    color: white;
 }
 
 #numerosMentira {
